@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C303181F911869BED296545A /* Pods_CustomEmptyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AFCEA1C7C6C3DF5A6CB226 /* Pods_CustomEmptyView.framework */; };
 		C486BDD12522E7E700D423CE /* CustomEmptyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BDC72522E7E700D423CE /* CustomEmptyView.framework */; };
 		C486BDD62522E7E700D423CE /* CustomEmptyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDD52522E7E700D423CE /* CustomEmptyViewTests.m */; };
-		C486BDD82522E7E700D423CE /* CustomEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDCA2522E7E700D423CE /* CustomEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C486BDEE2522E84A00D423CE /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE32522E84900D423CE /* UIView+Empty.h */; };
+		C486BDEF2522E84A00D423CE /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE42522E84900D423CE /* CustomEmptyView.m */; };
+		C486BDF02522E84A00D423CE /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE52522E84900D423CE /* LYEmptyView.h */; };
+		C486BDF12522E84A00D423CE /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE62522E84900D423CE /* UIView+LYExtension.m */; };
+		C486BDF22522E84A00D423CE /* CustomEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE72522E84900D423CE /* CustomEmptyView.h */; };
+		C486BDF32522E84A00D423CE /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE82522E84900D423CE /* LYEmptyViewHeader.h */; };
+		C486BDF42522E84A00D423CE /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE92522E84900D423CE /* LYEmptyView.m */; };
+		C486BDF52522E84A00D423CE /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDEA2522E84900D423CE /* UIView+LYExtension.h */; };
+		C486BDF62522E84A00D423CE /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDEB2522E84A00D423CE /* LYEmptyBaseView.h */; };
+		C486BDF72522E84A00D423CE /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDEC2522E84A00D423CE /* LYEmptyBaseView.m */; };
+		C486BDF82522E84A00D423CE /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDED2522E84A00D423CE /* UIView+Empty.m */; };
+		C486BDFB2522E87700D423CE /* CustomEmptyView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C486BDF92522E87600D423CE /* CustomEmptyView.podspec */; };
+		C486BDFC2522E87700D423CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C486BDFA2522E87600D423CE /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46750FA5DC418D47D83E9C04 /* Pods-CustomEmptyView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomEmptyView.release.xcconfig"; path = "Target Support Files/Pods-CustomEmptyView/Pods-CustomEmptyView.release.xcconfig"; sourceTree = "<group>"; };
+		A7AFCEA1C7C6C3DF5A6CB226 /* Pods_CustomEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BDC72522E7E700D423CE /* CustomEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C486BDCA2522E7E700D423CE /* CustomEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
 		C486BDCB2522E7E700D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C486BDD02522E7E700D423CE /* CustomEmptyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomEmptyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BDD52522E7E700D423CE /* CustomEmptyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyViewTests.m; sourceTree = "<group>"; };
 		C486BDD72522E7E700D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486BDE32522E84900D423CE /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
+		C486BDE42522E84900D423CE /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
+		C486BDE52522E84900D423CE /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
+		C486BDE62522E84900D423CE /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
+		C486BDE72522E84900D423CE /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
+		C486BDE82522E84900D423CE /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
+		C486BDE92522E84900D423CE /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
+		C486BDEA2522E84900D423CE /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
+		C486BDEB2522E84A00D423CE /* LYEmptyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyBaseView.h; sourceTree = "<group>"; };
+		C486BDEC2522E84A00D423CE /* LYEmptyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyBaseView.m; sourceTree = "<group>"; };
+		C486BDED2522E84A00D423CE /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
+		C486BDF92522E87600D423CE /* CustomEmptyView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomEmptyView.podspec; sourceTree = "<group>"; };
+		C486BDFA2522E87600D423CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F66C146DB7C5D7CCDFFAF6B6 /* Pods-CustomEmptyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomEmptyView.debug.xcconfig"; path = "Target Support Files/Pods-CustomEmptyView/Pods-CustomEmptyView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C303181F911869BED296545A /* Pods_CustomEmptyView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +79,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E80CDCC2CF0289782A72675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFCEA1C7C6C3DF5A6CB226 /* Pods_CustomEmptyView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91721058AFDEA474A0F61236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F66C146DB7C5D7CCDFFAF6B6 /* Pods-CustomEmptyView.debug.xcconfig */,
+				46750FA5DC418D47D83E9C04 /* Pods-CustomEmptyView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C486BDBD2522E7E700D423CE = {
 			isa = PBXGroup;
 			children = (
+				C486BDF92522E87600D423CE /* CustomEmptyView.podspec */,
+				C486BDFA2522E87600D423CE /* LICENSE */,
 				C486BDC92522E7E700D423CE /* CustomEmptyView */,
 				C486BDD42522E7E700D423CE /* CustomEmptyViewTests */,
 				C486BDC82522E7E700D423CE /* Products */,
+				91721058AFDEA474A0F61236 /* Pods */,
+				7E80CDCC2CF0289782A72675 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +121,7 @@
 		C486BDC92522E7E700D423CE /* CustomEmptyView */ = {
 			isa = PBXGroup;
 			children = (
-				C486BDCA2522E7E700D423CE /* CustomEmptyView.h */,
+				C486BDE22522E83C00D423CE /* EmptyView */,
 				C486BDCB2522E7E700D423CE /* Info.plist */,
 			);
 			path = CustomEmptyView;
@@ -86,6 +136,24 @@
 			path = CustomEmptyViewTests;
 			sourceTree = "<group>";
 		};
+		C486BDE22522E83C00D423CE /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				C486BDE72522E84900D423CE /* CustomEmptyView.h */,
+				C486BDE42522E84900D423CE /* CustomEmptyView.m */,
+				C486BDEB2522E84A00D423CE /* LYEmptyBaseView.h */,
+				C486BDEC2522E84A00D423CE /* LYEmptyBaseView.m */,
+				C486BDE52522E84900D423CE /* LYEmptyView.h */,
+				C486BDE92522E84900D423CE /* LYEmptyView.m */,
+				C486BDE82522E84900D423CE /* LYEmptyViewHeader.h */,
+				C486BDE32522E84900D423CE /* UIView+Empty.h */,
+				C486BDED2522E84A00D423CE /* UIView+Empty.m */,
+				C486BDEA2522E84900D423CE /* UIView+LYExtension.h */,
+				C486BDE62522E84900D423CE /* UIView+LYExtension.m */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +161,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BDD82522E7E700D423CE /* CustomEmptyView.h in Headers */,
+				C486BDF02522E84A00D423CE /* LYEmptyView.h in Headers */,
+				C486BDF32522E84A00D423CE /* LYEmptyViewHeader.h in Headers */,
+				C486BDF22522E84A00D423CE /* CustomEmptyView.h in Headers */,
+				C486BDF52522E84A00D423CE /* UIView+LYExtension.h in Headers */,
+				C486BDEE2522E84A00D423CE /* UIView+Empty.h in Headers */,
+				C486BDF62522E84A00D423CE /* LYEmptyBaseView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C486BDDB2522E7E700D423CE /* Build configuration list for PBXNativeTarget "CustomEmptyView" */;
 			buildPhases = (
+				311740C3B1948B58BBDC9965 /* [CP] Check Pods Manifest.lock */,
 				C486BDC22522E7E700D423CE /* Headers */,
 				C486BDC32522E7E700D423CE /* Sources */,
 				C486BDC42522E7E700D423CE /* Frameworks */,
@@ -177,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486BDFC2522E87700D423CE /* LICENSE in Resources */,
+				C486BDFB2522E87700D423CE /* CustomEmptyView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +265,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		311740C3B1948B58BBDC9965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomEmptyView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C486BDC32522E7E700D423CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486BDEF2522E84A00D423CE /* CustomEmptyView.m in Sources */,
+				C486BDF12522E84A00D423CE /* UIView+LYExtension.m in Sources */,
+				C486BDF72522E84A00D423CE /* LYEmptyBaseView.m in Sources */,
+				C486BDF82522E84A00D423CE /* UIView+Empty.m in Sources */,
+				C486BDF42522E84A00D423CE /* LYEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +440,7 @@
 		};
 		C486BDDC2522E7E700D423CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66C146DB7C5D7CCDFFAF6B6 /* Pods-CustomEmptyView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -343,6 +450,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomEmptyView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +465,7 @@
 		};
 		C486BDDD2522E7E700D423CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46750FA5DC418D47D83E9C04 /* Pods-CustomEmptyView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -366,6 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomEmptyView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
