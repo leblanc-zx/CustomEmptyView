@@ -11,5 +11,6 @@
 
 #import "LYEmptyView.h"
 #import "UIView+Empty.h"
+#import "MJRefreshHeader+EmptyView.h"
 
 #endif /* LYEmptyViewHeader_h */

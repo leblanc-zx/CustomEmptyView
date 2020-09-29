@@ -7,6 +7,7 @@
 //
 
 #import "LYEmptyView.h"
+#import "UIView+Empty.h"
 
 //每个子控件之间的间距
 #define kSubViewMargin 20.f
@@ -650,6 +651,39 @@
         [view.layer replaceSublayer:firstLayer with:layer];
     } else {
         [view.layer insertSublayer:layer atIndex:0];
+    }
+}
+
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title {
+    return [self ly_emptyViewWithTitle:title offsetY:-40 firstLoadShow:NO];
+}
+
+/**
+ 构造方法 - 创建emptyView
+ 
+ @param title    标题
+ @param offsetY    偏移
+ @return 返回一个emptyView
+ */
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title offsetY:(CGFloat)offsetY {
+    return [self ly_emptyViewWithTitle:title offsetY:offsetY firstLoadShow:NO];
+}
+
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title offsetY:(CGFloat)offsetY firstLoadShow:(BOOL)firstLoadShow {
+    LYEmptyView *em = [LYEmptyView emptyViewWithImage:nil titleStr:title detailStr:@""];
+    em.autoShowEmptyView = NO;
+    em.titleLabTextColor = [UIColor colorWithRed:148/255.0 green:148/255.0 blue:148/255.0 alpha:1];
+    em.titleLabFont = [UIFont fontWithName:@"Helvetica" size:16.0];
+    em.contentViewOffset = offsetY;
+    em.isFirstLoadShow = firstLoadShow;
+    return em;
+}
+
+- (void)didMoveToSuperview {
+    if (self.isFirstLoadShow == YES) {
+        [self.superview ly_showEmptyView];
+    } else {
+        [self.superview ly_hideEmptyView];
     }
 }
 

@@ -11,6 +11,11 @@
 @interface LYEmptyView : LYEmptyBaseView
 
 /**
+ 刚刚被加载到视图上的时候，是否直接展示，默认 NO
+ */
+@property (nonatomic, assign) BOOL isFirstLoadShow;
+
+/**
  是否自动显隐EmptyView, default=YES
  */
 @property (nonatomic, assign) BOOL autoShowEmptyView;
@@ -138,5 +143,33 @@
  按钮 与 (详细描述或标题或图片) 之间的间距 default is @subViewMargin
  */
 @property (nonatomic, assign) CGFloat  actionBtnMargin;
+
+/**
+ 构造方法 - 创建emptyView
+ 
+ @param title    标题
+ @return 返回一个emptyView
+ */
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title;
+
+/**
+ 构造方法 - 创建emptyView
+ 
+ @param title    标题
+ @param offsetY    偏移
+ @return 返回一个emptyView
+ */
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title offsetY:(CGFloat)offsetY;
+
+/**
+ 构造方法 - 创建emptyView
+ 
+ @param title    标题
+ @param offsetY    偏移
+ @param firstLoadShow    刚被加载到视图上时，是否直接显示
+ @return 返回一个emptyView
+ */
++ (LYEmptyView *)ly_emptyViewWithTitle:(NSString *)title offsetY:(CGFloat)offsetY firstLoadShow:(BOOL)firstLoadShow;
+
 
 @end

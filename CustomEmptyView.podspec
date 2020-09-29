@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomEmptyView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '一个项目中通用的空白提示功能'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'CustomEmptyView/*.{h,m}' 注：路径是相对于.podspec的路径
   # 配置子目录
-  s.subspec 'SearchBar' do |searchbar|
-  searchbar.source_files = 'CustomEmptyView/*'
+  s.subspec 'EmptyView' do |emptyview|
+  emptyview.source_files = 'CustomEmptyView/EmptyView/*'
   end
   
   # s.resource_bundles = {

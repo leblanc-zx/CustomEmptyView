@@ -11,10 +11,8 @@
 		C486BDD12522E7E700D423CE /* CustomEmptyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BDC72522E7E700D423CE /* CustomEmptyView.framework */; };
 		C486BDD62522E7E700D423CE /* CustomEmptyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDD52522E7E700D423CE /* CustomEmptyViewTests.m */; };
 		C486BDEE2522E84A00D423CE /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE32522E84900D423CE /* UIView+Empty.h */; };
-		C486BDEF2522E84A00D423CE /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE42522E84900D423CE /* CustomEmptyView.m */; };
 		C486BDF02522E84A00D423CE /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE52522E84900D423CE /* LYEmptyView.h */; };
 		C486BDF12522E84A00D423CE /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE62522E84900D423CE /* UIView+LYExtension.m */; };
-		C486BDF22522E84A00D423CE /* CustomEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE72522E84900D423CE /* CustomEmptyView.h */; };
 		C486BDF32522E84A00D423CE /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDE82522E84900D423CE /* LYEmptyViewHeader.h */; };
 		C486BDF42522E84A00D423CE /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDE92522E84900D423CE /* LYEmptyView.m */; };
 		C486BDF52522E84A00D423CE /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BDEA2522E84900D423CE /* UIView+LYExtension.h */; };
@@ -23,6 +21,8 @@
 		C486BDF82522E84A00D423CE /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BDED2522E84A00D423CE /* UIView+Empty.m */; };
 		C486BDFB2522E87700D423CE /* CustomEmptyView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C486BDF92522E87600D423CE /* CustomEmptyView.podspec */; };
 		C486BDFC2522E87700D423CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C486BDFA2522E87600D423CE /* LICENSE */; };
+		C486BE33252330B500D423CE /* MJRefreshHeader+EmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE31252330B400D423CE /* MJRefreshHeader+EmptyView.h */; };
+		C486BE34252330B500D423CE /* MJRefreshHeader+EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE32252330B500D423CE /* MJRefreshHeader+EmptyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +44,8 @@
 		C486BDD52522E7E700D423CE /* CustomEmptyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyViewTests.m; sourceTree = "<group>"; };
 		C486BDD72522E7E700D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C486BDE32522E84900D423CE /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
-		C486BDE42522E84900D423CE /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
 		C486BDE52522E84900D423CE /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
 		C486BDE62522E84900D423CE /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
-		C486BDE72522E84900D423CE /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
 		C486BDE82522E84900D423CE /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
 		C486BDE92522E84900D423CE /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
 		C486BDEA2522E84900D423CE /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		C486BDED2522E84A00D423CE /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
 		C486BDF92522E87600D423CE /* CustomEmptyView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomEmptyView.podspec; sourceTree = "<group>"; };
 		C486BDFA2522E87600D423CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C486BE31252330B400D423CE /* MJRefreshHeader+EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJRefreshHeader+EmptyView.h"; sourceTree = "<group>"; };
+		C486BE32252330B500D423CE /* MJRefreshHeader+EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshHeader+EmptyView.m"; sourceTree = "<group>"; };
 		F66C146DB7C5D7CCDFFAF6B6 /* Pods-CustomEmptyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomEmptyView.debug.xcconfig"; path = "Target Support Files/Pods-CustomEmptyView/Pods-CustomEmptyView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +139,6 @@
 		C486BDE22522E83C00D423CE /* EmptyView */ = {
 			isa = PBXGroup;
 			children = (
-				C486BDE72522E84900D423CE /* CustomEmptyView.h */,
-				C486BDE42522E84900D423CE /* CustomEmptyView.m */,
 				C486BDEB2522E84A00D423CE /* LYEmptyBaseView.h */,
 				C486BDEC2522E84A00D423CE /* LYEmptyBaseView.m */,
 				C486BDE52522E84900D423CE /* LYEmptyView.h */,
@@ -150,6 +148,8 @@
 				C486BDED2522E84A00D423CE /* UIView+Empty.m */,
 				C486BDEA2522E84900D423CE /* UIView+LYExtension.h */,
 				C486BDE62522E84900D423CE /* UIView+LYExtension.m */,
+				C486BE31252330B400D423CE /* MJRefreshHeader+EmptyView.h */,
+				C486BE32252330B500D423CE /* MJRefreshHeader+EmptyView.m */,
 			);
 			path = EmptyView;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			files = (
 				C486BDF02522E84A00D423CE /* LYEmptyView.h in Headers */,
 				C486BDF32522E84A00D423CE /* LYEmptyViewHeader.h in Headers */,
-				C486BDF22522E84A00D423CE /* CustomEmptyView.h in Headers */,
+				C486BE33252330B500D423CE /* MJRefreshHeader+EmptyView.h in Headers */,
 				C486BDF52522E84A00D423CE /* UIView+LYExtension.h in Headers */,
 				C486BDEE2522E84A00D423CE /* UIView+Empty.h in Headers */,
 				C486BDF62522E84A00D423CE /* LYEmptyBaseView.h in Headers */,
@@ -295,8 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BDEF2522E84A00D423CE /* CustomEmptyView.m in Sources */,
 				C486BDF12522E84A00D423CE /* UIView+LYExtension.m in Sources */,
+				C486BE34252330B500D423CE /* MJRefreshHeader+EmptyView.m in Sources */,
 				C486BDF72522E84A00D423CE /* LYEmptyBaseView.m in Sources */,
 				C486BDF82522E84A00D423CE /* UIView+Empty.m in Sources */,
 				C486BDF42522E84A00D423CE /* LYEmptyView.m in Sources */,
