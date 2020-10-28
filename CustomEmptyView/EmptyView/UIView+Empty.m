@@ -55,11 +55,17 @@ static char kEmptyViewKey;
         for (NSInteger section = 0; section < tableView.numberOfSections; section++) {
             totalCount += [tableView numberOfRowsInSection:section];
         }
+        if (self.ly_emptyView.isSectionHeaderIncluded == YES) {
+            totalCount += tableView.numberOfSections;
+        }
     } else if ([self isKindOfClass:[UICollectionView class]]) {
         UICollectionView *collectionView = (UICollectionView *)self;
         
         for (NSInteger section = 0; section < collectionView.numberOfSections; section++) {
             totalCount += [collectionView numberOfItemsInSection:section];
+        }
+        if (self.ly_emptyView.isSectionHeaderIncluded == YES) {
+            totalCount += collectionView.numberOfSections;
         }
     }
     return totalCount;

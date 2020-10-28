@@ -16,6 +16,11 @@
 @property (nonatomic, assign) BOOL isFirstLoadShow;
 
 /**
+ 当TableView、CollectionView有header时，header是否被当作有数据，默认NO
+ */
+@property (nonatomic, assign) BOOL isSectionHeaderIncluded;
+
+/**
  是否自动显隐EmptyView, default=YES
  */
 @property (nonatomic, assign) BOOL autoShowEmptyView;
